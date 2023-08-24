@@ -4,19 +4,19 @@ void main(void){
     printf("Enter an alphabet\n");
     scanf("%c", &alphabet);
    // printf("%c is vowel", alphabet);
-    if (alphabet == 'e'){
+    if (alphabet == 'e' || 'E'){
         printf("%c is vowel", alphabet);
     }
-    else if (alphabet == 'a'){
+    else if (alphabet == 'a' || 'A'){
         printf("%c is vowel", alphabet);
     }
-    else if (alphabet == 'i'){
+    else if (alphabet == 'i' || 'I'){
         printf("%c is vowel", alphabet);
     }
-    else if (alphabet == 'o'){
+    else if (alphabet == 'o' || 'O'){
         printf("%c is vowel", alphabet);
     }
-    else if (alphabet == 'u'){
+    else if (alphabet == 'u'|| 'U'){
         printf("%c is vowel", alphabet);
     }   
     else{
