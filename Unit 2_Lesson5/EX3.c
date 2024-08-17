@@ -1,18 +1,22 @@
 #include <stdio.h>
 #include <string.h>
 
-void Reverse (){
-     char c;
-     scanf("%c", &c);
+void Reverse (int size){
+     char x;
+     scanf("%d", &x);
 
- if (c != '\n'){
- Reverse ();
- printf("%c", c);
+ for (i=0; i<size; i++){
+ Reverse (size);
+
  }
+  printf("%c", c);
 }
 
 int main(){
-printf("Enter a sentense\t");
-Reverse(); 
+    int size;
+printf("Enter the size of the array\t");
+scanf ("%d", &size);
+printf("Enter the array\t");
+Reverse(size); 
 return 0; 
 }           

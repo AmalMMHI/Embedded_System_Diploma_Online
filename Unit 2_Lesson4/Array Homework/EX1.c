@@ -8,7 +8,7 @@ void main(void){
 for (i=0; i<2; i++){
     for (j=0; j<2; j++){
 
-    printf("Enter the selements of first matrix\n Enter a%d%d\t", i+1, j+1);
+    printf("Enter the elements of first matrix\n Enter a%d%d\t", i+1, j+1);
     scanf("%f", &a[i][j]);
     }
 }

@@ -1,6 +1,7 @@
 #include<stdio.h>
 void main(void){
-
-    printf("C Programming");
+int i,j;
+    ++i=4;
+    j=(i++);
 
 }
